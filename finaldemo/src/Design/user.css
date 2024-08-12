@@ -1,0 +1,55 @@
+.user{
+  text-align: center;
+  max-width: 550px;
+  height: 450px;
+  margin-top: 50px;
+  margin-left: 27%;
+  background-color: white;
+  border-radius: 15px;
+}
+.user h1{
+  padding-top: 20px;
+  padding-bottom: 2px;
+  margin-left:5px;
+}
+
+.user input{
+ text-align: left; 
+ margin-left:20px;
+ border-radius: 15px;
+ width: 220px;
+ height: 18px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.sel_op{
+  text-align: left; 
+  margin-left:100px;
+  margin-bottom: 40PX;
+  padding-right: 100px;
+  border-radius: 15px;
+  width: 430px;
+  height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.user-select{
+  width: 350px;
+}
+.us-name{
+  width: 350px;
+}
+.us-nam1{
+  margin-bottom: 10px;
+}
+.us-pass{
+  margin-bottom: 10px;
+}
+.us-mobile{
+  margin-bottom: 10px;
+}
+.us-remark{
+  margin-bottom: 40px;
+}
+.us-save{
+  width: 100px;
+
+}

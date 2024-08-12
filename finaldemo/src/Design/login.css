@@ -1,0 +1,40 @@
+body{
+  background-color:cadetblue; 
+}
+.AD_Log{
+  text-align: center;
+  max-width: 500px;
+  height: 280px;
+  margin-top: 150px;
+  margin-left: 30%;
+  background-color: white;
+  border-radius: 15px;  
+}
+.ad-pass{
+  width: 350px;
+}
+.AD_Log h1{
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+.AD_Log input{
+  height: 25px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  width: 250px;
+}
+.AD_Log a{
+  margin-left: 110px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration:none ;
+}
+.log-btn{
+  margin-top: 20px;
+  width:100px;
+  height: 25px;
+  margin-left: 80px;
+}
+.ad-btn{
+  width: 100px;
+}
+

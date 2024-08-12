@@ -1,0 +1,80 @@
+ /* App.css */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: linear-gradient(to right, #a1def3, #0a293b);
+  margin: 0;
+  
+}
+.head{
+  background: linear-gradient(to right, #91cbde, #0c1d27);
+  color: rgb(55, 50, 50);
+
+}
+.ic{
+  color: gray;
+  margin-left: 10px;
+}
+.icon{
+  color: gray;
+  position: relative;
+  top: -10px;
+  height: 64px;
+  color: rgb(107, 219, 107);
+  /* background-color:lightblue; */
+}
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 10px;
+  background: linear-gradient(to right, #00b7ff, #000000);
+  border-right: 5px solid black;
+}
+.sidebar h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+.sidebar li {
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 10px;
+  position: relative;
+  top: -30px;
+}
+.sidebar .dropdown {
+  position: relative;
+}
+.sidebar .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background: linear-gradient(to right, #00b7ff, #000000);
+  min-width: 150px;
+  z-index: 1;
+}
+
+.sidebar .dropdown:hover .dropdown-content {
+  display: block;
+}
+.sidebar .dropdown-content li {
+  padding: 10px;
+
+} 
+.das-li{
+  margin-top: 40px;
+}
+
+
+
